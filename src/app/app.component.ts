@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PersonsComponent } from './persons/persons.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-refresher';
 }
